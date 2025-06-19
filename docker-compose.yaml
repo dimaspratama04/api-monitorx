@@ -1,7 +1,7 @@
 services:
   api-monitorx:
     container_name: api-monitorx
-    image: dimaspratama04/api-monitorx:v1.0.1
+    image: dimaspratama04/api-monitorx:v1.0.2
     ports:
       - "80:80"
     restart: on-failure

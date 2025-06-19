@@ -1,7 +1,7 @@
 {
   "ChatID": "00000000",
   "BotToken": "00000000:AAAAAAAAAAAAAaaaaaaaaaaaaaaa",
-  "InfluxHost": "127.0.0.1",
+  "InfluxHost": "0.0.0.0",
   "InfluxPort": "8086",
   "InfluxDB": "telegraf",
   "InfluxMeasurement": "monitorx",
