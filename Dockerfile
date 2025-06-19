@@ -17,6 +17,4 @@ COPY --from=builder /api/monitorx .
 
 COPY --from=builder /api/ .
 
-EXPOSE 5758
-
 ENTRYPOINT [ "/api/monitorx" ]
